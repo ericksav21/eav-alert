@@ -15,5 +15,6 @@ Ventajas de usar eav-alert:
 	-Diseño responsivo
 	
 Uso:
+
   1.- Clona este proyecto dentro de tus archivos o descárgalo usando la opción "descargar como zip"
   ...
