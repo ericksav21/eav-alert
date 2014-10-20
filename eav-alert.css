@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/*----- Estilos generales -----*/
+#eav-alert-box, .eav-alert{
+	display: block;
+}
+
+/*----- Caja de texto -----*/
+#eav-alert-box{
+	width: 215px;
+	height: auto;
+	position: absolute;
+	top: 510px;
+	left: 30px;
+}
+
+.eav-alert{
+	width: 100%;
+	height: 100px;
+	margin-top: 10px;
+	background-color: blue;
+	box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+		-webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+	border-radius: 2px;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+}
+
+.eav-alert-header, .eav-alert-main{width: 100%;}
+
+/*----- Header -----*/
+.eav-alert-header{
+	height: 20px;
+	float: left;
+	background-color: green;
+}
+
+.eav-alert-header .eav-alert-close{
+	width: 18px;
+	height: 18px;
+	float: right;
+	margin: 1px 3px 0px 0px;
+	background-color: gray;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+/*----- Main -----*/
+.eav-alert-main{
+	height: 100%;
+}
+
+.eav-alert-main .eav-alert-img{
+	width: 42px;
+	height: 42px;
+	float: left;
+	display: inline-block;
+	margin: 10px 0px 0px 8px;
+	background-color: yellow;
+}
+
+.eav-alert-main .eav-alert-img img{
+	width: 42px;
+	height: 42px;
+}
+
+.eav-alert-main .eav-alert-text .eav-alert-main-text{
+	width: 157px;
+	height: 55px;
+	float: left;
+	display: inline;
+	background-color: red;
+}
+
+.eav-alert-main .eav-alert-text .eav-alert-text-date{
+	width: 199px;
+	height: 20px;
+	clear: both;
+	display: block;
+	margin: 3px 0px 0px 8px;
+	background-color: gray;
+}
