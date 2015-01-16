@@ -10,7 +10,7 @@
 	width: 215px;
 	height: auto;
 	position: absolute;
-	top: 510px;
+	top: 80%;
 	left: 30px;
 }
 
@@ -113,6 +113,8 @@
 	float: left;
 	display: inline-block;
 	margin: 10px 0px 0px 8px;
+	background-size: 38px 38px;
+	background-repeat: no-repeat;
 	/*background-color: yellow;*/
 }
 
@@ -135,12 +137,12 @@
 
 .eav-alert-main .eav-alert-text .eav-alert-main-text .eav-alert-tContents{
 	font-size: 12px;
-	margin-top: 5px;
+	margin: 6px 0px 0px 0px;
 	color: #584949;
 }
 
 /*----- Media Queries -----*/
-@media all and (max-height: 700px) and (min-height: 661px){
+/*@media all and (max-height: 700px) and (min-height: 661px){
 	#eav-alert-box{
 		top: 550px;
 	}
@@ -162,4 +164,4 @@
 	#eav-alert-box{
 		top: 200px;
 	}
-}
+}*/
